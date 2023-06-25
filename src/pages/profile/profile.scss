@@ -1,0 +1,83 @@
+.profile {
+    margin-bottom: 2px;
+    &_wrapper {
+        background: #FFFFFF;
+        box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+        opacity: 0.7;
+    }
+    
+    &_bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 19px 10px;
+        margin-left: 80px;
+        padding-bottom: 5px;
+    }
+    
+    &_b-right {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+    }
+    
+    &_person-name {
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 21px;
+        color: #414D6A
+    }
+    
+    &_balance-text {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        color: #304FFF;
+    }
+    
+    &_b-btn {
+        background: #FFFFFF;
+        border: 1px solid #41D481;
+        border-radius: 100px 5px 5px 100px;
+        padding: 8px 22px 10px 47px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        position: relative;
+        
+        &::after {
+            content: "+";
+            display: inline-block;
+            position: absolute;
+            background: hsl(150deg 83% 39%);
+            border-radius: 22px;
+            width: 34px;
+            height: 20px;
+            top: 0;
+            left: 0;
+            padding: 10px 2px;
+            color: #FFFFFF;
+        }
+    }
+    
+    &_list {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 14px 5px;
+        margin-left: 80px;
+    }
+    
+    &_link {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        color: #304FFF;
+        padding-bottom: 6px;
+
+        &:hover {
+            border-bottom: 2px solid #304FFF;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6,p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+
+  .container {
+    max-width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .route_heading {
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+
+  .route_btn {
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: rgb(81, 90, 141);
+    border: 2px solid rgb(10, 10, 10);
+    color: #fff;
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 17px;
+    padding: 7px 4px;
+  }

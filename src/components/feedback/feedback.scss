@@ -1,0 +1,39 @@
+.feedback {
+    background: #282B30;
+    
+    &_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #FFFFFF;
+        padding: 10px 0;
+    }
+    
+    &_heading {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        width: 160px;
+    }
+    
+    &_wrapper {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    &_text {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #98A4B7;
+        width: 310px;
+    }
+    
+    &_btn-wr {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}

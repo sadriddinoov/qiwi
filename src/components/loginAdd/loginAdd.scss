@@ -1,0 +1,76 @@
+.logina {
+    box-shadow: 12px 4px 24px rgba(0, 0, 0, 0.0647645);
+    
+    &_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &_left {
+        display: flex;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid rgba(151, 151, 151, 0.496575);
+        border-radius: 22.5px;
+        margin-left: 29px;
+        height: 44px;
+    }
+    
+    &_hr {
+        display: inline-block;
+        margin-right: 25px;
+        width: 3;
+        height: 44px;
+    }
+    
+    &_select {
+        margin-right: 50px;
+        border: none;
+        outline: none;
+        margin-left: 30px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+        padding: 0;
+    }
+    
+    &_heading {
+        margin-right: 180px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+    }
+    
+    &_btn {
+        background: #19D476;
+        border-radius: 22px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+        border: none;
+        padding: 14px 20px;
+    }
+    
+    &_btnn {
+        padding: 12px 30px 13px 50px;
+        position: relative;
+        
+        &::after {
+            content: '+';
+            display: inline-block;
+            position: absolute;
+            background: #11B463;
+            border-radius: 22px;
+            width: 44px;
+            height: 30px;
+            align-items: center;
+            top: 0;
+            left: 0;
+            padding-top: 14px;
+        }
+    }
+}

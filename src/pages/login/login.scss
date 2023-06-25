@@ -1,0 +1,95 @@
+.login {
+    
+    &_container {
+        display: flex;
+        gap: 65px;
+        margin-top: 20px;
+        margin-left: 70px;
+        padding-bottom: 100px;
+        position: relative;
+    }
+    
+    &_title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    
+    &_text {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        color: #304FFF;
+        width: 335px;
+        margin-bottom: 10px;
+    }
+    
+    &_heading {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+        color: #787993;
+        margin-bottom: 7px;
+    }
+    
+    &_input {
+        background: #FFFFFF;
+        border: 1px solid rgba(151, 151, 151, 0.482592);
+        border-radius: 5px;
+        padding: 20px 110px 19px 25px;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        color: #949292;
+        outline: none;
+        
+        &:nth-child(2) {
+            margin-bottom: 30px;
+        }
+    }
+    
+    &_btn {
+        width: 380px;
+        height: 60px;
+    }
+    
+    
+    &_bgc {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    
+    .xix-hr {
+        border: 1px solid #979797;
+        width: 100px;
+        height: 0;
+        margin-top: 16px;
+    }
+    
+    &__text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #787993;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    
+    &_link {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #4E72CA;
+        margin-left: 100px;
+    }
+    
+}
